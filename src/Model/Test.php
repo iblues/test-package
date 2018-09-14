@@ -11,8 +11,9 @@ namespace Iblues\Test\Model;
 
 class Test
 {
-    function test(){
-        return true;
+    function test($num = 1)
+    {
+        return $num;
     }
 
 }

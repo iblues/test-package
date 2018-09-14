@@ -1,5 +1,5 @@
 {
-    "name": "iblues/test-package",
+    "name": "iblues/test",
     "autoload": {
         "psr-4": {
             "Iblues\\Test\\": "src"
@@ -7,5 +7,12 @@
     },
     "require": {
         "phpunit/phpunit": "^7.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iblues\\Test\\ServiceProvider"
+            ]
+        }
     }
 }
