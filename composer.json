@@ -1,0 +1,11 @@
+{
+    "name": "iblues/test-package",
+    "autoload": {
+        "psr-4": {
+            "Iblues\\Test\\": "src"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^7.3"
+    }
+}
