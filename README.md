@@ -1,5 +1,7 @@
 <h1 align="center"> test </h1>
 
+[![Build Status](https://travis-ci.org/iblues/test-package.svg?branch=master)](https://travis-ci.org/iblues/test-package)
+
 <p align="center"> 测试扩展包用.</p>
 
 
